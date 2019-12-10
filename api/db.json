@@ -1,0 +1,211 @@
+{
+    "users": [
+        {
+            "id": "7ec3d2f0-641e-11e9-9d5d-1b8ad05606d1",
+            "password": "$2b$10$RNCVsIxNLKP8Gl.BPoedXuwGczl527UfsLDYcb.9V856ng4kxULrS",
+            "favs": ["18", "1"],
+            "avatar": "https://gravatar.com/avatar/8e04be7dab487d77f16969fd3e0d45d4",
+            "email": "miduga@gmail.com"
+        },
+        {
+            "id": "a882e1d0-6428-11e9-9b1f-8980b7d40890",
+            "password": "$2b$10$BffxqFIacmPkKr2VZgyu7.r0nMmCMbL3nNw3CdWLpKVSKWkUAQGJS",
+            "favs": ["18", "16", "1", "15"],
+            "avatar": "https://gravatar.com/avatar/3bccd59be0a57b39bdd9b2760702795e",
+            "email": "dani@gmail.com"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Tangaras",
+            "emoji": "🐦",
+            "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773413/Tangaras/tangara4_uqlwdl.jpg",
+            "path": "/photos/cats"
+        },
+        {
+            "id": 2,
+            "name": "Turpiales",
+            "emoji": "🐦",
+            "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial4_bjtamn.jpg",
+            "path": "/photos/dogs"
+        },
+        {
+            "id": 3,
+            "name": "Colibris",
+            "emoji": "🐦",
+            "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773162/Colibries/colibri10_zw3obd.jpg",
+            "path": "/photos/hamsters"
+        },
+        {
+            "id": 4,
+            "name": "Carpienteros",
+            "emoji": "🐦",
+            "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574771094/Carpinteros/carpinteto1_hjlthp.jpg",
+            "path": "/photos/rabbits"
+        },
+        {
+            "id": 5,
+            "name": "Coloridos",
+            "emoji": "🐦",
+            "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773742/Coloridos/torito1_vyxz1e.jpg",
+            "path": "/photos/birds"
+        },
+        {
+            "id": 6,
+            "name": "Medianos",
+            "emoji": "🐦",
+            "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773966/Medianos/pinche1_jfrjp0.jpg",
+            "path": "/photos/fishes"
+        }
+    ],
+    "photos": [
+        {
+            "id": 1,
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1574770864/Tangaras/tangara1_xrzr6k.jpg",
+            "userId": 1,
+            "likes": 45
+        },
+        {
+            "id": 2,
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574770864/Tangaras/tangara3_fdepua.jpg",
+            "userId": 1,
+            "likes": 3
+        },
+        {
+            "id": 3,
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773413/Tangaras/tangara4_uqlwdl.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 13,
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574770864/Tangaras/tangara2_r5lt9e.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 0,
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial4_bjtamn.jpg",
+            "userId": 100,
+            "likes": 7
+        },
+        {
+            "id": 4,
+            "categoryId": 2,
+            "src": "https://images.unsplash.com/photo-1500879747858-bb1845b61beb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            "userId": 1,
+            "likes": 27
+        },
+        {
+            "id": 7,
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial1_wxy8zp.jpg",
+            "userId": 1,
+            "likes": 40
+        },
+        {
+            "id": 5,
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial3_cpkwgg.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 6,
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773742/Coloridos/torito1_vyxz1e.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 9,
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial2_tdk20t.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 8,
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial5_dkljab.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 14,
+            "categoryId": 2,
+            "src": "https://images.unsplash.com/photo-1500879747858-bb1845b61beb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            "userId": 1,
+            "likes": 27
+        },
+        {
+            "id": 12,
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771044/Colibries/colibri3_eoxzx8.jpg",
+            "userId": 3,
+            "likes": 6
+        },
+        {
+            "id": 11,
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771044/Colibries/colibri1_b3arlz.jpg",
+            "userId": 1,
+            "likes": 40
+        },
+        {
+            "id": 10,
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773161/Colibries/colibri4_uyyqjh.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 15,
+            "categoryId": 4,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771094/Carpinteros/carpintero2_de20wr.jpg",
+            "userId": 1,
+            "likes": 1
+        },
+        {
+            "id": 16,
+            "categoryId": 4,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771094/Carpinteros/carpinteto1_hjlthp.jpg",
+            "userId": 1,
+            "likes": 1
+        },
+        {
+            "id": 17,
+            "categoryId": 5,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773742/Coloridos/torito1_vyxz1e.jpg",
+            "userId": 1,
+            "likes": 21
+        },
+        {
+            "id": 18,
+            "categoryId": 5,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773721/Coloridos/gallitoMonte1_kgd6qd.jpg",
+            "userId": 2,
+            "likes": 15
+        },
+        {
+            "id": 19,
+            "categoryId": 6,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773966/Medianos/pinche1_jfrjp0.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 20,
+            "categoryId": 6,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773799/Medianos/Cucarachero1_jgzz1e.jpg",
+            "userId": 1,
+            "likes": 0
+        }
+    ]
+}
