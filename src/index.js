@@ -6,6 +6,7 @@ import { App } from "./App";
 import Context from "./Context";
 const client = new ApolloClient({
   uri: "https://birdgram-server.jorgevelasquez006.now.sh/graphql",
+
   request: operation => {
     const token = window.sessionStorage.getItem("token");
     const authorization = token ? `Bearer ${token}` : "";

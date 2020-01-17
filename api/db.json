@@ -3,14 +3,22 @@
         {
             "id": "7ec3d2f0-641e-11e9-9d5d-1b8ad05606d1",
             "password": "$2b$10$RNCVsIxNLKP8Gl.BPoedXuwGczl527UfsLDYcb.9V856ng4kxULrS",
-            "favs": ["18", "1"],
+            "favs": [
+                "18",
+                "1"
+            ],
             "avatar": "https://gravatar.com/avatar/8e04be7dab487d77f16969fd3e0d45d4",
             "email": "miduga@gmail.com"
         },
         {
             "id": "a882e1d0-6428-11e9-9b1f-8980b7d40890",
             "password": "$2b$10$BffxqFIacmPkKr2VZgyu7.r0nMmCMbL3nNw3CdWLpKVSKWkUAQGJS",
-            "favs": ["18", "16", "1", "15"],
+            "favs": [
+                "18",
+                "16",
+                "1",
+                "15"
+            ],
             "avatar": "https://gravatar.com/avatar/3bccd59be0a57b39bdd9b2760702795e",
             "email": "dani@gmail.com"
         }
@@ -18,43 +26,43 @@
     "categories": [
         {
             "id": 1,
-            "name": "Tangaras",
-            "emoji": "🐦",
+            "name": "cats",
+            "emoji": "🐱",
             "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773413/Tangaras/tangara4_uqlwdl.jpg",
             "path": "/photos/cats"
         },
         {
             "id": 2,
-            "name": "Turpiales",
-            "emoji": "🐦",
+            "name": "dogs",
+            "emoji": "🐶",
             "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial4_bjtamn.jpg",
             "path": "/photos/dogs"
         },
         {
             "id": 3,
-            "name": "Colibris",
-            "emoji": "🐦",
+            "name": "hamsters",
+            "emoji": "🐹",
             "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773162/Colibries/colibri10_zw3obd.jpg",
             "path": "/photos/hamsters"
         },
         {
             "id": 4,
-            "name": "Carpienteros",
-            "emoji": "🐦",
+            "name": "rabbits",
+            "emoji": "🐰",
             "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574771094/Carpinteros/carpinteto1_hjlthp.jpg",
             "path": "/photos/rabbits"
         },
         {
             "id": 5,
-            "name": "Coloridos",
+            "name": "birds",
             "emoji": "🐦",
             "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773742/Coloridos/torito1_vyxz1e.jpg",
             "path": "/photos/birds"
         },
         {
             "id": 6,
-            "name": "Medianos",
-            "emoji": "🐦",
+            "name": "fishes",
+            "emoji": "🐠",
             "cover": "https://res.cloudinary.com/imagesfull/image/upload/v1574773966/Medianos/pinche1_jfrjp0.jpg",
             "path": "/photos/fishes"
         }
@@ -62,6 +70,7 @@
     "photos": [
         {
             "id": 1,
+            "especie": "Tangaras",
             "categoryId": 1,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1574770864/Tangaras/tangara1_xrzr6k.jpg",
             "userId": 1,
@@ -69,6 +78,7 @@
         },
         {
             "id": 2,
+            "especie": "Tangaras",
             "categoryId": 1,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574770864/Tangaras/tangara3_fdepua.jpg",
             "userId": 1,
@@ -76,6 +86,7 @@
         },
         {
             "id": 3,
+            "especie": "Tangaras",
             "categoryId": 1,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773413/Tangaras/tangara4_uqlwdl.jpg",
             "userId": 1,
@@ -83,13 +94,63 @@
         },
         {
             "id": 13,
+            "especie": "Tangaras",
             "categoryId": 1,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574770864/Tangaras/tangara2_r5lt9e.jpg",
             "userId": 1,
             "likes": 7
         },
         {
+            "id": 26,
+            "especie": "Tangaras",
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773413/Tangaras/tangara5_njjz0w.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 27,
+            "especie": "Tangaras",
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773414/Tangaras/tangara6_mshhth.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 28,
+            "especie": "Tangaras",
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773418/Tangaras/tangara17_lzunve.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 29,
+            "especie": "Tangaras",
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773414/Tangaras/tangara8_njyfub.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 30,
+            "especie": "Tangaras",
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773414/Tangaras/tangara9_yhh639.jpg",
+            "userId": 1,
+            "likes": 7
+        },
+        {
+            "id": 31,
+            "especie": "Tangaras",
+            "categoryId": 1,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773415/Tangaras/tangara10_fi89bg.jpg",
+            "userId": 1,
+            "likes": 16
+        },
+        {
             "id": 0,
+            "especie": "Turpial platanero",
             "categoryId": 2,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial4_bjtamn.jpg",
             "userId": 100,
@@ -97,13 +158,23 @@
         },
         {
             "id": 4,
+            "especie": "Turpial platanero",
             "categoryId": 2,
-            "src": "https://images.unsplash.com/photo-1500879747858-bb1845b61beb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial2_tdk20t.jpg",
+            "userId": 1,
+            "likes": 27
+        },
+        {
+            "id": 21,
+            "especie": "Turpial platanero",
+            "categoryId": 2,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial3_cpkwgg.jpg",
             "userId": 1,
             "likes": 27
         },
         {
             "id": 7,
+            "especie": "Turpial platanero",
             "categoryId": 2,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial1_wxy8zp.jpg",
             "userId": 1,
@@ -111,6 +182,7 @@
         },
         {
             "id": 5,
+            "especie": "Turpial platanero",
             "categoryId": 2,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial3_cpkwgg.jpg",
             "userId": 1,
@@ -118,13 +190,15 @@
         },
         {
             "id": 6,
+            "especie": "Turpial platanero",
             "categoryId": 2,
-            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773742/Coloridos/torito1_vyxz1e.jpg",
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial5_dkljab.jpg",
             "userId": 1,
             "likes": 0
         },
         {
             "id": 9,
+            "especie": "Turpial platanero",
             "categoryId": 2,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial2_tdk20t.jpg",
             "userId": 1,
@@ -132,6 +206,7 @@
         },
         {
             "id": 8,
+            "especie": "Turpial platanero",
             "categoryId": 2,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773471/Turpiales/turpial5_dkljab.jpg",
             "userId": 1,
@@ -139,13 +214,15 @@
         },
         {
             "id": 14,
+            "especie": "Turpial platanero",
             "categoryId": 2,
-            "src": "https://images.unsplash.com/photo-1500879747858-bb1845b61beb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773470/Turpiales/turpial4_bjtamn.jpg",
             "userId": 1,
             "likes": 27
         },
         {
             "id": 12,
+            "especie": "Colibri",
             "categoryId": 3,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771044/Colibries/colibri3_eoxzx8.jpg",
             "userId": 3,
@@ -153,6 +230,7 @@
         },
         {
             "id": 11,
+            "especie": "Colibri",
             "categoryId": 3,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771044/Colibries/colibri1_b3arlz.jpg",
             "userId": 1,
@@ -160,13 +238,47 @@
         },
         {
             "id": 10,
+            "especie": "Colibri",
             "categoryId": 3,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773161/Colibries/colibri4_uyyqjh.jpg",
             "userId": 1,
             "likes": 0
         },
         {
+            "id": 22,
+            "especie": "Colibri",
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771044/Colibries/colibri2_jifonm.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 23,
+            "especie": "Colibri",
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773161/Colibries/colibri5_yjdlg1.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 24,
+            "especie": "Colibri",
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773163/Colibries/colibri6_okeppf.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
+            "id": 25,
+            "especie": "Colibri",
+            "categoryId": 3,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773163/Colibries/colibri7_heypvy.jpg",
+            "userId": 1,
+            "likes": 0
+        },
+        {
             "id": 15,
+            "especie": "Carpintero amarillo",
             "categoryId": 4,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771094/Carpinteros/carpintero2_de20wr.jpg",
             "userId": 1,
@@ -174,6 +286,7 @@
         },
         {
             "id": 16,
+            "especie": "Carpintero",
             "categoryId": 4,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574771094/Carpinteros/carpinteto1_hjlthp.jpg",
             "userId": 1,
@@ -181,6 +294,7 @@
         },
         {
             "id": 17,
+            "especie": "Torito",
             "categoryId": 5,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773742/Coloridos/torito1_vyxz1e.jpg",
             "userId": 1,
@@ -188,13 +302,39 @@
         },
         {
             "id": 18,
+            "especie": "Gallito de monte",
             "categoryId": 5,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773721/Coloridos/gallitoMonte1_kgd6qd.jpg",
             "userId": 2,
             "likes": 15
         },
         {
+            "id": 32,
+            "especie": "Guacamaya",
+            "categoryId": 5,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773646/Loros/loro1_iibjds.jpg",
+            "userId": 2,
+            "likes": 15
+        },
+        {
+            "id": 33,
+            "especie": "Cola de alambre",
+            "categoryId": 5,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773815/Coloridos/colaAlambre1_f8trzw.jpg",
+            "userId": 2,
+            "likes": 15
+        },
+        {
+            "id": 34,
+            "especie": "Barranquero",
+            "categoryId": 5,
+            "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773848/Coloridos/baranquero1_gu3dy9.jpg",
+            "userId": 2,
+            "likes": 15
+        },
+        {
             "id": 19,
+            "especie": "Pinche o Copeton",
             "categoryId": 6,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773966/Medianos/pinche1_jfrjp0.jpg",
             "userId": 1,
@@ -202,6 +342,7 @@
         },
         {
             "id": 20,
+            "especie": "Cucarachero",
             "categoryId": 6,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574773799/Medianos/Cucarachero1_jgzz1e.jpg",
             "userId": 1,
