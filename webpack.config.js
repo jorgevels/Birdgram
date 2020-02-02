@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WebpackPwaManifestPlugin = require("webpack-pwa-manifest");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
 const path = require("path");
 
@@ -53,7 +54,8 @@ module.exports = {
           }
         }
       ]
-    })
+    }),
+    new FaviconsWebpackPlugin("./src/assets/icon.png")
   ],
   module: {
     rules: [
