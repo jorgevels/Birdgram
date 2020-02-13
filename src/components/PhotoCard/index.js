@@ -8,16 +8,9 @@ import { Liked } from "../Liked";
 import { Context } from "../../Context";
 import { Loading } from "../Loading";
 
-const DEFAULT_IMAGE =
-  "https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png";
 import PropTypes from "prop-types";
 
-export const PhotoCard = ({
-  id = 0,
-  liked = false,
-  likes = 0,
-  src = DEFAULT_IMAGE
-}) => {
+export const PhotoCard = ({ id = 0, liked = false, likes = 0, src = "" }) => {
   const [show, element] = useNearScreen();
   const { postSelected, setPostSelected } = useContext(Context);
   const { setFav } = useContext(Context);

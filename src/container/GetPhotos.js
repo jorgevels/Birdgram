@@ -4,6 +4,7 @@ import { gql } from "apollo-boost";
 import { ListOfPhotoCardComponent } from "../components/ListOfPhotoCard";
 import { Context } from "../Context";
 
+// Query que trae las fotos de la API
 const GET_PHOTOS = gql`
   query getPhotos($categoryId: ID) {
     photos(categoryId: $categoryId) {

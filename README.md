@@ -2,9 +2,10 @@
 
 Este repositorio contiene una app sencilla para ver fotos de los pajaros mas hermosos, desarrollada con react-hooks.
 
-![Captura de la App](./readme-static/)
+![Captura de la App](./readme-static/captura1.png)
 
 [Ver la aplicación](https://react-birdgram.jorgevelasquez006.now.sh/)
+![Captura de la App](./readme-static/captura2.png)
 
 ## Cómo funciona?
 

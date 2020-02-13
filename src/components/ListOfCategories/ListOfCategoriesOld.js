@@ -26,6 +26,7 @@ const ListOfCategoriesComponent = () => {
   const { categories, loading } = useCategoriesData();
   const [showFixed, setShowFixed] = useState(false);
 
+  // muesta la barra de la cabecera si el usuario hace scroll
   useEffect(
     function() {
       const onScroll = e => {
@@ -34,7 +35,7 @@ const ListOfCategoriesComponent = () => {
       };
 
       document.addEventListener("scroll", onScroll);
-
+      // se remoeve el eventListener del scroll
       return () => document.removeEventListener("scroll", onScroll);
     },
     [showFixed]

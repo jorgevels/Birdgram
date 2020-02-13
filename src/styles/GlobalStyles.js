@@ -29,7 +29,8 @@ export const GlobalStyles = createGlobalStyle`
     background: #fefefe;
     height: 100vh;
     margin: 0 auto;
-    max-width: 500px;
+   ${"" /*  Mobile first */}
+    max-width: 500px; 
     overscroll-behavior: none;
     width: 100%;
     font-family: 'Roboto', sans-serif;

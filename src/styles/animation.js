@@ -11,6 +11,7 @@ const fadeInKeyFrames = keyframes`
     opacity: 1;
   }
 `;
+// tiempo del fadein de las imagenes
 export const fadeIn = ({ time = "1s", type = "ease" } = {}) => css`
   animation: ${time} ${fadeInKeyFrames} ${type};
 `;
