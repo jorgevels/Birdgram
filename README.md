@@ -4,8 +4,8 @@ Este repositorio contiene una app sencilla para ver fotos de los pajaros mas her
 
 ![Captura de la App](./readme-static/captura1.png)
 
-[Ver la aplicación](https://react-birdgram.jorgevelasquez006.now.sh/)
 ![Captura de la App](./readme-static/captura2.png)
+[Ver la aplicación](https://react-birdgram.jorgevelasquez006.now.sh/)
 
 ## Cómo funciona?
 
