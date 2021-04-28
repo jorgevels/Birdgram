@@ -123,7 +123,7 @@ const resolvers = {
     // Handle user signup
     async signup(_, { input }) {
       // add 1 second of delay in order to see loading stuff
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
       const { email, password } = input;
 
@@ -135,7 +135,7 @@ const resolvers = {
 
       const newUser = await userModel.create({
         email,
-        password
+        password,
       });
 
       // return json web token
@@ -149,7 +149,7 @@ const resolvers = {
     // Handles user login
     async login(_, { input }) {
       // add 1 second of delay in order to see loading stuff
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
       const { email, password } = input;
       const user = await userModel.find({ email });
@@ -170,7 +170,7 @@ const resolvers = {
         process.env.JWT_SECRET,
         { expiresIn: "1d" }
       );
-    }
+    },
   },
   Query: {
     favs(_, __, context) {
@@ -188,8 +188,8 @@ const resolvers = {
     photos(_, { categoryId }, context) {
       const favs = tryGetFavsFromUserLogged(context);
       return photosModel.list({ categoryId, favs });
-    }
-  }
+    },
+  },
 };
 
 module.exports = { typeDefs, resolvers };

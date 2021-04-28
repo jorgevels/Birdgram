@@ -8,13 +8,15 @@ function useCategoriesData() {
   const { categories, setCategories } = useContext(Context);
   const { setLoadingCategories } = useContext(Context);
 
-  useEffect(function() {
+  useEffect(function () {
     if (categories.length === 0) {
       setLoadingCategories(true);
       window
-        .fetch("https://birdgram-server.jorgevelasquez006.now.sh/categories")
-        .then(res => res.json())
-        .then(response => {
+        .fetch("https://bidgram-backend.vercel.app/categories")
+        /*  window
+        .fetch("https://petgram-server-hksev77it.now.sh/categories") */
+        .then((res) => res.json())
+        .then((response) => {
           setCategories(response);
           /* console.log("response", response); */
           setTimeout(() => {

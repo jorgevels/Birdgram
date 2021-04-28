@@ -10,8 +10,8 @@ const noOfCards = 3;
 const autoPlayDelay = 2000;
 const chevronWidth = 10;
 
-const renderItems = data =>
-  data.map(item => (
+const renderItems = (data) =>
+  data.map((item) => (
     <SlideItem key={item.id}>
       <Category {...item} path={`/pet/${item.id}`} />
     </SlideItem>
@@ -40,7 +40,7 @@ export const AutoPlayCarousel = ({ data = [] }) => {
   const [noOfItems, setNoOfItems] = useState(0);
   const [activeItemIndex, setActiveItemIndex] = useState(0);
 
-  const onChange = value => {
+  const onChange = (value) => {
     setActiveItemIndex(value);
   };
 
@@ -50,7 +50,7 @@ export const AutoPlayCarousel = ({ data = [] }) => {
   };
 
   useEffect(
-    function() {
+    function () {
       const lengthItems = data.length;
 
       if (noOfItems === 0 || lengthItems > noOfItems) {

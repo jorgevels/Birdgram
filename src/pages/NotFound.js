@@ -1,9 +1,11 @@
 import React from "react";
-import { Logo } from "../components/Logo";
+import { Layout } from "../components/Layout";
 
 export const NotFound = () => (
-  <>
-    <Logo />
-    <h1>Esta pagina no existe! :(</h1>
-  </>
+  <Layout>
+    <h1 text-aling="center">
+      404 <br></br>
+      Esta pagina no<br></br> existe! :(
+    </h1>
+  </Layout>
 );

@@ -40,9 +40,3 @@ export const ListOfFavs = ({ favs = [], loading, error }) => {
     </Grid>
   );
 };
-/* showData &&
-  favs.map(fav => (
-    <Link key={fav.id} to={`/detail/${fav.id}`} widthShadow={true}>
-      <Image src={fav.src} />
-    </Link>
-  )); */

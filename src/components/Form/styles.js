@@ -31,7 +31,7 @@ export const Message = styled.div`
   color: red;
   font-size: 0.675em;
   font-family: "Segoe UI";
-  ${props =>
+  ${(props) =>
     props.showMessage &&
     css`
        {

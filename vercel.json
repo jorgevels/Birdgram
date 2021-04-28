@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "react-birdgram",
+    "name": "Birdgram",
     "builds": [
         {
             "use": "@now/static-build",

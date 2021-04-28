@@ -74,7 +74,7 @@
             "categoryId": 1,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1574770864/Tangaras/tangara1_xrzr6k.jpg",
             "userId": 1,
-            "likes": 45
+            "likes": 50
         },
         {
             "id": 2,
@@ -82,7 +82,7 @@
             "categoryId": 1,
             "src": "https://res.cloudinary.com/imagesfull/image/upload/v1574770864/Tangaras/tangara3_fdepua.jpg",
             "userId": 1,
-            "likes": 3
+            "likes": 43
         },
         {
             "id": 3,

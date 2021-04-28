@@ -33,11 +33,6 @@ const renderProp = ({ loading, error, data }) => {
   return <PhotoCard {...photo} />;
 };
 
-/* export const PhotoCardWithQuery = ({ id }) => (
-  <Query query={GET_SINGLE_PHOTO} variables={{ id }}>
-    {renderProp}
-  </Query>
-); */
 export const PhotoCardWithQuery = ({ id }) => (
   <Query query={GET_SINGLE_PHOTO} variables={{ id }}>
     {renderProp}

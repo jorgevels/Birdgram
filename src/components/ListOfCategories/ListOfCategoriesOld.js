@@ -8,12 +8,14 @@ function useCategoriesData() {
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  useEffect(function() {
+  useEffect(function () {
     setLoading(true);
     window
-      .fetch("https://birdgram-server.jorgevelasquez006.now.sh/categories")
-      .then(res => res.json())
-      .then(response => {
+      .fetch("https://bidgram-backend.vercel.app/categories")
+      /*  window
+      .fetch("https://petgram-server-hksev77it.now.sh/categories") */
+      .then((res) => res.json())
+      .then((response) => {
         setCategories(response);
         setLoading(false);
       });
@@ -28,8 +30,8 @@ const ListOfCategoriesComponent = () => {
 
   // muesta la barra de la cabecera si el usuario hace scroll
   useEffect(
-    function() {
-      const onScroll = e => {
+    function () {
+      const onScroll = (e) => {
         const newShowFixed = window.scrollY > 200;
         showFixed !== newShowFixed && setShowFixed(newShowFixed);
       };
@@ -44,10 +46,10 @@ const ListOfCategoriesComponent = () => {
     return <Loading />;
   }
 
-  const renderList = fixed => (
+  const renderList = (fixed) => (
     <ContainerList fixed={fixed}>
       <List>
-        {categories.map(category => (
+        {categories.map((category) => (
           <Item key={category.id}>
             <Category {...category} path={`/pet/${category.id}`} />
           </Item>
@@ -64,4 +66,5 @@ const ListOfCategoriesComponent = () => {
   );
 };
 
+// Le pasamos el elemento que queremos memorizar para que lo vuelva a renderizar
 export const ListOfCategories = React.memo(ListOfCategoriesComponent);

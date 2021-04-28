@@ -99,11 +99,11 @@ PhotoCard.propTypes = {
     const propValue = props[propName];
 
     if (propValue === undefined) {
-      return new Error(`${propName} value must be defined`);
+      return new Error(`${propName} El valor tiene que estar definido`);
     }
 
     if (propValue < 0) {
-      return new Error(`${propName} value must be greater than 0`);
+      return new Error(`${propName} El valor tiene que ser mayor que cero 0`);
     }
   }
 };

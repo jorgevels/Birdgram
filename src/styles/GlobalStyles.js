@@ -18,6 +18,9 @@ export const GlobalStyles = createGlobalStyle`
   ul {
     list-style: none;
   }
+  h1 {
+    text-align: center;
+  }
 
   button {
     background: transparent;

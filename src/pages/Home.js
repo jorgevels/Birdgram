@@ -1,6 +1,5 @@
 import React from "react";
 import { ListOfCategories } from "../components/ListOfCategories";
-// import { ListOfPhotoCard } from '../container/ListOfPhotoCard'
 import { PhotosWithQuery } from "../container/GetPhotos";
 import { Layout } from "../components/Layout";
 
@@ -15,6 +14,10 @@ const HomePage = ({ id }) => {
     </Layout>
   );
 };
+
+// Utilizando React.memo permite que no se
+//vuelvan a renderizar los mismos componentes
+//al menos que hallan tenido algun cambio
 
 export const Home = React.memo(HomePage, (prevProps, props) => {
   return prevProps.id === props.id;
